@@ -38,6 +38,9 @@ body {
 * {
   padding: 0;
 }
+a {
+  text-decoration: none;
+}
 h1,
 h2,
 h3,
@@ -163,7 +166,17 @@ header {
 .auth-nav a:focus {
   color: var(--accent-text-color);
 }
-.address a {
+.address {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-style: 14px;
+  line-height: 1.71;
+
+  margin-right: 70px;
+}
+.contact {
   text-decoration: none;
 }
 .contact-info.link {
@@ -222,7 +235,7 @@ header {
 .title-features {
   margin-bottom: 10px;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
 }
 .features-list {
   display: flex;
@@ -318,19 +331,26 @@ header {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-bottom: 50px;
 }
-.section-title,
-.section-title2 {
+.section-title {
   font-size: 36px;
-  line-height: 1.17px;
+  line-height: 1.17;
 
   text-align: center;
   margin-top: 94px;
   margin-bottom: 50px;
 }
+.section-title2 {
+  font-size: 36px;
+  line-height: 1.17;
+
+  text-align: center;
+  margin-bottom: 50px;
+}
 .type-work {
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 .name {
   margin-top: 30px;
@@ -349,7 +369,6 @@ li.team-item {
   margin-left: 30px;
 }
 .team-item {
-  margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -370,7 +389,7 @@ p {
   padding-bottom: 94px;
   background-color: #ffffff;
 }
-.clients {
+.client {
   display: flex;
   justify-items: center;
   align-items: center;
@@ -406,13 +425,22 @@ p {
   fill: var(--accent-text-color);
 }
 /* Footer */
-.footer-container {
+.container.footer {
   display: flex;
+  align-items: baseline;
 }
 .logo-web2 {
   color: var(--primary-bg-color);
 }
+.logo2 {
+  display: flex;
+  text-decoration: none;
 
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  margin-bottom: 20px;
+}
 .container.footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -464,13 +492,13 @@ p {
 }
 
 .footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 48px;
+  padding-bottom: 28px;
 
   background-color: #2f303a;
 }
 
-.address-town > a {
+.address-town a {
   color: var(--primary-bg-color);
   font-size: 14px;
   line-height: 1.71;
@@ -516,6 +544,9 @@ p {
   letter-spacing: 0.03em;
   color: var(--primary-bg-color);
 }
+.addition-item {
+  margin-right: 10px;
+}
 .addition-icon {
   display: flex;
   justify-content: center;
@@ -524,7 +555,6 @@ p {
 .addition-icon {
   width: 44px;
   height: 44px;
-  margin-right: 10px;
   border-radius: 50%;
   background-color: #3f404a;
 
