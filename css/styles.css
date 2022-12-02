@@ -140,10 +140,9 @@ header {
 }
 .icon-email {
   width: 16px;
-  height: 12px;
 }
 .icon-phone {
-  margin-right: 10px;
+  height: 16px;
 }
 .auth-nav {
   display: flex;
